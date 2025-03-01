@@ -1,20 +1,40 @@
 .cart {
     border: 1px solid #ddd;
     padding: 16px;
-    margin-top: 20px;
-    border-radius: 8px;
+    border-radius: 35px;
+    padding: 3%;
     background-color: #5a4f4f;
-    max-width: 80%;
+    max-width: 1000px;
     margin: 0 auto;
+    
   }
-  
-  
   .cartItem {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid #ccc;
+  }
+
+  .flexbt{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    gap: 20px; 
+
+  }
+  .cartItem button{
+    background-image:linear-gradient( 150deg, #6b2654, rgb(255, 0, 64),#791616);
+    border: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .cartItem button:hover{
+    background-image:linear-gradient( 150deg, #ff00aa, #90f,#00DDFF);
   }
   
   .productImage {
@@ -24,34 +44,25 @@
     margin-right: 10px;
   }
   
-  .clearButton, .purchaseButton {
-    display: block;
-    width: 100%;
+  .clearButton{
     padding: 10px;
-    margin-top: 10px;
-    background-color: #4CAF50;
-    color: white;
+    margin: 10px;
+    background-color: crimson;
+    padding: 15px 20px;
+    border-radius: 10px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    text-decoration: none;
   }
-  
-  .clearButton:hover, .purchaseButton:hover {
-    background-color: #45a049;
+  .clearButton:hover{
+    background-color: #291616;
   }
-  
-  .purchaseButton {
-    background-color: #2196F3;
-  }
-  
-  .purchaseButton:hover {
-    background-color: #0b7dda;
-  }
-  
+
   .invoiceSection {
-    margin-top: 20px;
     padding: 16px;
-    border: 1px solid #ddd;
+    border-radius: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
     background-color: #5c5353;
   }
   
@@ -68,3 +79,9 @@
     font-weight: bold;
   }
   
+  @media (max-width: 400px) {
+    .cart {
+      padding: 1%;
+      width: 96%;
+    }
+  }

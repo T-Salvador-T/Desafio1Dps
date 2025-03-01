@@ -3,11 +3,12 @@
     flex-wrap: wrap; 
     justify-content: space-evenly; 
     gap: 20px; 
-    padding: 20px;
+    padding: 25px 12%;
   }
   
   .productItem {
     width: 200px; 
+    min-height: 270px;
     text-align: center;
     border: 1px solid #ddd;
     padding: 10px;
@@ -17,8 +18,9 @@
   
   .productImage {
     width: 100%; 
-    height: auto; 
-    border-radius: 8px;
+    min-height: 120px;
+    max-height: 150px; 
+    border-radius: 10px;
   }
   
   .productName {
@@ -34,15 +36,16 @@
   
   .addButton {
     padding: 10px;
-    background-color: #2196F3;
+    background-image:linear-gradient( 150deg, #ff00aa, #90f,#00DDFF);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 14px;
   }
   
   .addButton:hover {
-    background-color: #0b7dda;
+    background-image:linear-gradient( 150deg, #ff0000, rgba(255, 208, 0, 0.596),#ff0062);
+    
   }
   

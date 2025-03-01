@@ -16,6 +16,18 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.container{
+  padding: 10px;
+}
+
+.cab{
+  background-color: #383838;
+  border-radius: 35px;
+  max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
 .center{
   text-align: center;
   margin: 20px;

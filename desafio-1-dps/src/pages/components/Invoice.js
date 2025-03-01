@@ -7,7 +7,7 @@ export default function Invoice({ cart }) {
     <div className={styles.invoice}>
       <h2>Factura</h2>
       {cart.length === 0 ? (
-        <p>No hay productos en la compra.</p>
+        <p>No hay productos.</p>
       ) : (
         <>
           <ul>
