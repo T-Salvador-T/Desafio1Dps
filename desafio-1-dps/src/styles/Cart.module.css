@@ -1,0 +1,70 @@
+.cart {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #5a4f4f;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  
+  .cartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .productImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .clearButton, .purchaseButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clearButton:hover, .purchaseButton:hover {
+    background-color: #45a049;
+  }
+  
+  .purchaseButton {
+    background-color: #2196F3;
+  }
+  
+  .purchaseButton:hover {
+    background-color: #0b7dda;
+  }
+  
+  .invoiceSection {
+    margin-top: 20px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    background-color: #5c5353;
+  }
+  
+  .invoiceSection h3 {
+    margin-bottom: 12px;
+  }
+  
+  .invoiceSection ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .invoiceSection p {
+    font-weight: bold;
+  }
+  
